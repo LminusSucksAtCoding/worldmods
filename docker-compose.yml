@@ -9,10 +9,10 @@ services:
     entrypoint: "minetestserver --config /minetest.conf"
     user: root
     volumes:
-      - "./:/root/.minetest/worlds/world/worldmods/"
+      - "./:/root/.minetest/worlds/world/"
       - "./world.mt:/root/.minetest/worlds/world/world.mt"
       - "./minetest.conf:/minetest.conf"
-      - "./.REPOS/minetest_game/:/root/.minetest/games/dreambuilder_game/"
+      - "./.REPOS/dreambuilder_game/:/root/.minetest/games/dreambuilder_game/"
       - "world:/root/.minetest/worlds/world"
       - "./nodenames.txt:/root/.minetest/worlds/world/nodenames.txt"
 
