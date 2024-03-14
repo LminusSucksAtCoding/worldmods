@@ -9,7 +9,7 @@ services:
     entrypoint: "minetestserver --config /minetest.conf"
     user: root
     volumes:
-      - "./:/root/.minetest/worlds/world/"
+      - "./:/root/.minetest/worlds/world/worldmods/"
       - "./world.mt:/root/.minetest/worlds/world/world.mt"
       - "./minetest.conf:/minetest.conf"
       - "./.REPOS/dreambuilder_game/:/root/.minetest/games/dreambuilder_game/"
