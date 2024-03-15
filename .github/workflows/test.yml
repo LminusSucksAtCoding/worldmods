@@ -38,7 +38,7 @@ jobs:
     
     - name: Remove IRC+IRC_commands
       run: |-
-        rm -rf irc irc_commands irc_override
+        rm -rf irc irc_commands overrides/irc_override
 
 
     - name: Update minetest.conf and world.mt
