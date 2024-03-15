@@ -35,6 +35,11 @@ jobs:
     #   with:
     #     repository: BlockySurvival/bls_test_nodenames
     #     path: bls_test_nodenames
+    
+    - name: Remove IRC+IRC_commands
+      run: |-
+        rm -rf irc irc_commands
+
 
     - name: Update minetest.conf and world.mt
       run: |-
