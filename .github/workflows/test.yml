@@ -39,7 +39,7 @@ jobs:
     - name: Remove IRC + Temporarily Mod Issues
       run: |-
         rm -rf irc irc_commands overrides/irc_override
-        rm -rf morelights
+        rm -rf morelights doxy_morelights_dim
 
 
     - name: Update minetest.conf and world.mt
