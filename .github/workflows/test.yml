@@ -38,7 +38,7 @@ jobs:
 
     - name: Update minetest.conf and world.mt
       run: |-
-        echo 'default_game = dreambuilder_game' >> world.mt
+        echo 'gameid = dreambuilder' >> world.mt
         echo 'load_mod_mtt = true' >> world.mt
         # echo 'load_mod_bls_test_nodenames = true' >> world.mt
         echo 'mtt_enable = true' >> minetest.conf
