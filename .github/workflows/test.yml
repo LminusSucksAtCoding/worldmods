@@ -36,9 +36,10 @@ jobs:
     #     repository: BlockySurvival/bls_test_nodenames
     #     path: bls_test_nodenames
     
-    - name: Remove IRC+IRC_commands
+    - name: Remove IRC + Temporarily Mod Issues
       run: |-
         rm -rf irc irc_commands overrides/irc_override
+        rm -rf morelights
 
 
     - name: Update minetest.conf and world.mt
