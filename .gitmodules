@@ -13,9 +13,6 @@
 [submodule "xban2"]
 	path = xban2
 	url = https://github.com/minetest-mods/xban2
-[submodule "digistuff"]
-	path = digistuff
-	url = https://cheapiesystems.com/git/digistuff
 [submodule "castle_gates"]
 	path = castle_gates
 	url = https://github.com/minetest-mods/castle_gates
@@ -43,9 +40,6 @@
 [submodule "icemachine"]
 	path = icemachine
 	url = https://cheapiesystems.com/git/icemachine/
-[submodule "mesecons"]
-	path = mesecons
-	url = https://github.com/mt-mods/mesecons
 [submodule "teleport-request"]
 	path = teleport-request
 	url = https://github.com/minetest-mods/teleport-request
@@ -81,16 +75,16 @@
 	url = https://cheapiesystems.com/git/playersettings/
 [submodule "minetest-snippets"]
 	path = minetest-snippets
-	url = https://gitlab.com/luk3yx/minetest-snippets
+	url = https://gitlab.com/luk3yx/minetest-snippets.git/
 [submodule "minislots"]
 	path = minislots
 	url = https://github.com/mt-mods/minislots.git
 [submodule "doxy_morelights_dim"]
 	path = doxy_morelights_dim
-	url = https://invent.kde.org/davidhurka/doxy_morelights_dim
+	url = https://invent.kde.org/davidhurka/doxy_morelights_dim.git
 [submodule "printer"]
 	path = printer
-	url = git://cheapiesystems.com/printer
+	url = https://cheapiesystems.com/git/printer
 [submodule "elevatorparts"]
 	path = elevatorparts
 	url = https://cheapiesystems.com/git/elevatorparts/
@@ -124,9 +118,6 @@
 [submodule "Minetest-WorldEdit"]
 	path = Minetest-WorldEdit
 	url = https://github.com/Uberi/Minetest-WorldEdit.git
-[submodule "Minetest-WorldEditAdditions"]
-	path = Minetest-WorldEditAdditions
-	url = https://github.com/sbrl/Minetest-WorldEditAdditions.git
 [submodule "digiline_routing"]
 	path = digiline_routing
 	url = https://github.com/numberZero/digiline_routing
@@ -172,3 +163,39 @@
 [submodule "celevator"]
 	path = celevator
 	url = https://cheapiesystems.com/git/celevator/
+[submodule "motorbike"]
+	path = motorbike
+	url = https://github.com/Extex101/motorbike
+[submodule "floating_anchor"]
+	path = floating_anchor
+	url = https://github.com/sbrl/minetest-floating_anchor
+[submodule "gates"]
+	path = gates
+	url = https://bitbucket.org/kingarthursteam/gates/
+[submodule "mooncontroller"]
+	path = mooncontroller
+	url = https://github.com/mt-mods/mooncontroller
+[submodule "mooncontroller_convert"]
+	path = mooncontroller_convert
+	url = https://cheapiesystems.com/git/mooncontroller_convert/
+[submodule "advtouchscreen"]
+	path = advtouchscreen
+	url = https://cheapiesystems.com/git/advtouchscreen/
+[submodule "mesecons_better_vertical"]
+	path = mesecons_better_vertical
+	url = https://cheapiesystems.com/git/mesecons_better_vertical/
+[submodule "mesecons"]
+	path = mesecons
+	url = https://github.com/minetest-mods/mesecons
+[submodule "digistuff"]
+	path = digistuff
+	url = https://github.com/mt-mods/digistuff
+[submodule "vizlib"]
+	path = vizlib
+	url = https://github.com/OgelGames/vizlib
+[submodule "cb_spill"]
+	path = cb_spill
+	url = https://cheapiesystems.com/git/cb_spill/
+[submodule "deprecationwarning"]
+	path = deprecationwarning
+	url = https://cheapiesystems.com/git/deprecationwarning/
